@@ -1,0 +1,529 @@
+/* Fonts */
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif; */
+
+:root {
+    --open-sans: "Open Sans", sans-serif;
+    --playfair: "Playfair Display", serif;
+    --roboto: "Roboto", sans-serif;
+}
+
+/* colors */
+:root {
+    --pink: #fceae8;
+    --text-color-black: #303032;
+    --text-color-black-muted: #444348;
+    --shadow: 0px 0px 25px 0px #00000008;
+    --bg-color: #f9fdff;
+    --bg-color-card: #faece9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+
+header {
+    background-image: linear-gradient(90deg, #f9fdff 60%, #fceae8 60% 100%);
+    height: 900px;
+}
+
+.header-menu,
+section,
+aside,
+article {
+    position: relative;
+}
+
+.header-menu {
+    width: 100%;
+    height: 120px;
+    /* border: 1px solid red; */
+}
+
+.menu-item,
+.search,
+.shop,
+.logo,
+.textbox,
+.btn,
+.antikva,
+.carousel,
+.second-textbox,
+.chiziq,
+.card,
+.big-card,
+.second-price,
+.left,
+.right,
+.left-strelka,
+.right-strelka,
+.bottom,
+.article-textbox,
+.article-menu,
+.crd{
+    position: absolute;
+}
+
+.logo {
+    left: 7%;
+}
+
+.logo,
+.search,
+.first,
+.second,
+.third {
+    top: 60px;
+    letter-spacing: 1.5px;
+}
+
+.first {
+    left: 20%;
+}
+
+.second {
+    left: 30%;
+}
+
+.third {
+    left: 40%;
+}
+
+.search {
+    left: 82%;
+}
+
+.shop {
+    top: 57px;
+}
+
+.shop {
+    left: 84%;
+}
+
+.textbox {
+    /* border: 1px solid red; */
+    width: 28%;
+    top: 230px;
+    left: 5.6%;
+}
+
+.header-first-text {
+    width: 100%;
+    font-size: 4.2rem;
+    line-height: 5rem;
+    letter-spacing: 16px;
+}
+
+.header-second-text {
+    margin-top: 35px;
+    font-size: 1.7rem;
+    letter-spacing: 1px;
+}
+
+.first-price,
+.second-price {
+    display: inline-block;
+}
+
+.first-price {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.second-price {
+    top: 245px;
+    left: 88px;
+    font-size: 35px;
+    letter-spacing: 2.5px;
+}
+
+.btn {
+    width: 238px;
+    height: 58px;
+    top: 320px;
+    left: 0px;
+    background-color: #303032;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.antikva {
+    left: 48.86%;
+}
+
+.carousel {
+    top: 400px;
+    left: 82%;
+}
+
+section {
+    width: 100%;
+    /* border: 1px solid red; */
+    margin-top: 120px;
+}
+
+.second-textbox {
+    width: 250px;
+    /* border: 1px solid black; */
+    height: 250px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    font-size: 25px;
+    line-height: 250px;
+    left: 10%;
+    top: 40px;
+}
+
+.first-section-text {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+
+.chiziq {
+    top: 165px;
+    left: 19px;
+}
+
+.card {
+    width: 300px;
+    height: 350px;
+    /* border: 1px solid orange; */
+    text-align: center;
+    background-color: #faece9   ;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+
+.card {
+    left: 35%;
+}
+
+.stul {
+    margin-left: 38px;
+    margin-top: 35px;
+}
+
+.stul-text {
+    margin-top: 35px;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+}
+
+.stul-price {
+    font-size: 2rem;
+}
+
+.big-card {
+    width: 700px;
+    height: 650px;
+    /* border: 1px solid black; */
+    left: 57.5%;
+}
+
+.ofis-stul {
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.big-card-text {
+    margin-top: 25px;
+    font-size: 1.3rem;
+    margin-left: 30px;
+    letter-spacing: 1px;
+}
+
+.ofis-stul-price {
+    margin-top: 30px;
+    font-size: 2.5em;
+}
+
+.second-card {
+    top: 400px;
+    left: 10%;
+}
+
+.second-card-text {
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+}
+
+.second-card-price {
+    margin-top: 2rem;
+    font-size: 2em;
+}
+
+.third-card {
+    top: 400px;
+    background-color: #fceae8;
+}
+
+.third-card-text {
+    margin-top: 35px;
+    font-size: 1.5em;
+}
+
+.third-card-price {
+    margin-top: 25px;
+    font-size: 2rem;
+}
+
+aside {
+    width: 100%;
+    /* border: 1px solid red; */
+    top: 900px;
+
+}
+
+.imgbox {
+    margin-left: 28%;
+}
+
+.aside-text {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.8em;
+}
+
+.second-aside-text {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 2rem;
+}
+
+.third-aside-text {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+.third-aside-text:not(:first-child) {
+    margin-top: 8px;
+}
+
+.left,
+.right {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    top: 100px;
+    background-color: antiquewhite;
+}
+
+.left {
+    left: 12%;
+}
+
+.left-strelka,
+.right-strelka {
+    top: 10px;
+    left: 8px;
+}
+
+.right {
+    left: 88%;
+}
+
+.bottom {
+    top: 350px;
+    left: 48%;
+}
+
+article {
+    width: 100%;
+    height: 470px;
+    background-image: linear-gradient(90deg, #fceae8 60%, #f9fdff 60% 100%);
+    top: 1000px;
+    /* border: 5px solid red; */
+}
+
+.article-textbox {
+    left: 10%;
+}
+
+.article-text {
+    font-size: 2rem;
+    letter-spacing: 1.2px;
+}
+
+.ikkinchi-chiziq {
+    margin-top: 15px;
+}
+
+.article-menu{
+    top: 90px;
+    left: 10%;
+}
+
+.article-item{
+    position: relative;
+    display: inline-block;
+    font-size: 1.5em;
+    letter-spacing: 1.5px;
+}
+
+.scnd{
+    left: 60%;
+}
+
+.thrd{
+    left: 120%;
+}
+
+.article-link{
+    color: #444348;
+}
+
+.article-link:hover{
+    color: #000;
+    border-bottom: 3px solid black;
+    transition: 1s ease-in-out;
+}
+
+.crd{
+    border: 1px solid red;
+    top: 150px;
+    left: 10%;
+    width: 212px;
+    height: 350px;
+    background-color: #fff;
+    border-top: 5px solid black;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+
+.txt{
+    text-align: center;
+    font-size: 1.3em;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.karamel-price,
+.oblako-price,
+.sova-price,
+.maya-price,
+.messi-price {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 25px;
+    font-size: 1.8em;
+}
+
+.second-caramel-price,
+.second-oblako-price,
+.second-sova-price,
+.second-maya-price,
+.second-messi-price{
+    font-size: 1.4em;
+    margin-left: 105px;
+    margin-top: -30px;
+    text-decoration: line-through;
+    color: #979798;
+}
+
+.buy{
+    width: 212px;
+    height: 50px;
+    background-color: #303032;
+    color: #fff;
+    font-size: 1.3rem;
+    display: none;
+    letter-spacing: 2.5px;
+}
+
+.crd:hover .buy{
+    display: block;
+}
+
+.second-art-card{
+    left: 25%;
+}
+
+.oblako{
+    margin-top: -2px;
+    margin-left: 13px;
+}
+
+.third-art-card{
+    left: 41%;
+}
+
+.sova-stul{
+    margin-top: 7px;
+    margin-left: 43px;
+}
+
+.forth-art-card{
+    left: 56%;
+}
+
+.maya{
+    margin-top: -34px;
+    margin-left: 24px;
+}
+
+.fiveth-art-card{
+    left: 71%;
+}
+
+.messi{
+    margin-top: 3px;
+    margin-left: 48px;
+}
+
+footer{
+    width: 100%;
+    height: 250px;
+    position: relative;
+    top: 1200px;
+}
+
+.footer-logo{
+    margin-left: 10%;
+}
+
+.footer-item{
+    display: inline-block;
+    margin-left: 55px;
+}
+
+.footer-menu{
+    float: right;
+    margin-right: 18%;
+}
+
+.phone{
+    margin-left: 10%;
+}
+
+.number{
+    margin-left: 11.5%;
+    margin-top: -26px;
+}
+
+.post{
+    position: relative;
+    margin-left: 25%;
+    top: -15px;
+}
+
+.mail{
+    position: relative;
+    margin-left: 27%;
+    top: -39px;
+}
+
+.footer-text{
+    margin-top: 25px;
+    margin-left: 50%;
+}
